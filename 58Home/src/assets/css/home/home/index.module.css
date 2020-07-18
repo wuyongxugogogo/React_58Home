@@ -1,0 +1,19 @@
+.bottom-nav{width:100%;height:1.2rem;background:#FFFFFF;position: fixed;z-index:10;left:0px;bottom:0px;box-shadow: 0 0 10px rgba(239, 239, 239, 1);-webkit-box-shadow: 0 0 10px rgba(239, 239, 239, 1);display: flex;display:-webkit-flex;justify-content: space-between;-webkit-justify-content: space-between;align-items: center;-webkit-align-items: center;}
+.bottom-nav ul{width: auto;height:0.9rem;position: relative;z-index:1}
+.bottom-nav ul:nth-child(1){margin-left:10%;}
+.bottom-nav ul:nth-child(4){margin-right:10%;}
+.bottom-nav ul li{width:0.6rem;height:0.6rem;margin:0 auto;}
+
+.bottom-nav ul li.home{background-image:url("../../../images/common/gohome.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+.bottom-nav ul li.home.active{background-image:url("../../../images/common/gohome1.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+.bottom-nav ul li.text{font-size:0.25rem;text-align:center;width:auto;color: #8a8a8a;}
+.bottom-nav ul li.text.active{color:#d81e06}
+
+.bottom-nav ul li.news{background-image:url("../../../images/common/message.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+.bottom-nav ul li.news.active{background-image:url("../../../images/common/message1.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+
+.bottom-nav ul li.serve{background-image:url("../../../images/common/menu.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+.bottom-nav ul li.serve.active{background-image:url("../../../images/common/menu1.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+
+.bottom-nav ul li.user{background-image:url("../../../images/common/nickname.png");background-size:100%;background-repeat: no-repeat;background-position: center;}
+.bottom-nav ul li.user.active{background-image:url("../../../images/common/nickname1.png");background-size:100%;background-repeat: no-repeat;background-position: center;}

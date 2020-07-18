@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import RouterComponent from './router';
 import "./assets/css/common/public.css";
 import * as serviceWorker from './serviceWorker';
 
-
+function Index() {
+  return (
+    <React.Fragment>
+      <RouterComponent />
+    </React.Fragment>
+  )
+}
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Index />,
   document.getElementById('root')
 );
 
